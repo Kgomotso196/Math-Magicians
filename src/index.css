@@ -1,27 +1,67 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  height: 100vh;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+  background: white;
+  width: 40rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 5px 15px 29px 0 rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+  height: 4rem;
+  margin-bottom: 0;
+  background: gray;
+  color: white;
+  text-align: right;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
+}
+
+.buttonCarton {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+  background: rgb(233, 232, 232);
+  border: 0.5px solid rgb(170, 170, 170);
+  height: 4rem;
+  padding: 10px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+  font-size: 2rem;
+}
+
+.button:hover {
+  border: 2px dotted rgb(60, 128, 96);
+}
+
+.bigbtn {
+  grid-column: 1/3;
+}
+
+.operator {
+  background: rgb(231, 128, 80);
 }
