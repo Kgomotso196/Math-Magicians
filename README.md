@@ -63,9 +63,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Handling events in a React app**
-- **Using React lifecycle methods**
-- **Lifting state up**
+- **Integration with a Math API**
+- **User Authentication and Data Persistence**
+- **Historical Calculation Retrieval**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,9 +119,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Integration with a Math API**
-- [ ] **User Authentication and Data Persistence**
-- [ ] **Historical Calculation Retrieval**
+- [ ] **Interactive Graphing Tool**
+- [ ] **Mathematical Games and Challenges**
+- [ ] **Step-by-Step Solutions:**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
