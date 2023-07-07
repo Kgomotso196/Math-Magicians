@@ -12,14 +12,15 @@ const getStyles = (btn) => {
   };
   return className[btn];
 };
-const Button = ({ value }) => (
-  <button type="submit" className={`${getStyles(value)} button`}>
+const Button = ({ value, onClick }) => (
+  <button onClick={onClick} type="submit" className={`${getStyles(value)} button`}>
     {value}
   </button>
 );
 
 Button.propTypes = {
   value: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Button;

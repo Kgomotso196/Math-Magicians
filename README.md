@@ -63,10 +63,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Efficient Rendering**
-- **HTML-JavaScript Integration**
-- **Maintain a predictable data flow from parent to child components for organized data management.**
-- **Use React components, props and state**
+- **Handling events in a React app**
+- **Using React lifecycle methods**
+- **Lifting state up**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,10 +119,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Random Problem Generation**
-- [ ] **Answer Checking and Feedback**
-- [ ] **Responsive Design**
-- [ ] **Add logic and more design**
+- [ ] **Integration with a Math API**
+- [ ] **User Authentication and Data Persistence**
+- [ ] **Historical Calculation Retrieval**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
