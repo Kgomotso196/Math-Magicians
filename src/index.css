@@ -65,3 +65,19 @@ body {
 .operator {
   background: rgb(231, 128, 80);
 }
+
+.first-app {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  margin: 1.25rem;
+  font-size: 24px;
+}
