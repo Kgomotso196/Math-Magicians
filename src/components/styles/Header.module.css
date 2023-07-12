@@ -1,0 +1,19 @@
+.myHeader ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  padding: 2%;
+}
+
+.myHeader h2 {
+  padding: 2%;
+}
+
+.myHeader {
+  justify-content: space-between;
+  background-color: rgb(1, 122, 122);
+  border-bottom: 2px solid  rgb(1, 122, 122);
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  margin-bottom: 8%;
+}

@@ -21,22 +21,25 @@ const Calculator = () => {
   const handleEvent = (btn) => setObj(compute(obj, btn));
 
   return (
-    <div className="calculator">
-      <div className="screen">
-        <p>
-          {obj?.total}
-          {' '}
-          {obj?.operation}
-          {' '}
-          {obj?.next}
-        </p>
+    <>
+      <h3>Let&#39;s do some math!</h3>
+      <div className="calculator">
+        <div className="screen">
+          <p>
+            {obj?.total}
+            {' '}
+            {obj?.operation}
+            {' '}
+            {obj?.next}
+          </p>
+        </div>
+        <ButtonCarton>
+          {buttonLabels.flat().map((btn) => (
+            <Button onClick={() => handleEvent(btn.id)} value={btn.id} key={btn.id} />
+          ))}
+        </ButtonCarton>
       </div>
-      <ButtonCarton>
-        {buttonLabels.flat().map((btn) => (
-          <Button onClick={() => handleEvent(btn.id)} value={btn.id} key={btn.id} />
-        ))}
-      </ButtonCarton>
-    </div>
+    </>
   );
 };
 

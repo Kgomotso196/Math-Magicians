@@ -5,7 +5,7 @@ const API = 'https://api.api-ninjas.com/v1/quotes?category=success';
 
 function Quotes() {
   const [quotes, setQuotes] = useState(null);
-  const [state, setState] = useState({ status: 'loading', error: null }); // required states
+  const [state, setState] = useState({ status: 'loading', error: null });
 
   useEffect(() => {
     let isMounted = true;
@@ -44,7 +44,7 @@ function Quotes() {
   const isLoading = state.status === 'loading';
 
   return (
-    <blockquote>
+    <>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -54,7 +54,7 @@ function Quotes() {
           <b>{`-- ${quotes?.author}`}</b>
         </>
       )}
-    </blockquote>
+    </>
   );
 }
 
