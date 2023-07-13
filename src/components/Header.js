@@ -2,9 +2,13 @@ import { Link } from 'react-router-dom';
 import Styles from './styles/Header.module.css';
 
 const headerStyle = {
-  display: 'flex',
-  'margin-top': '0',
+  position: 'fixed',
+  top: '0',
+  right: '0',
+  width: '100%',
+  backgroundColor: 'navy',
   color: 'white',
+  padding: '10px',
 };
 const Header = () => (
   <>
