@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80%;
+  padding-left: 20%;
+  margin: 5% 0;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1em;
+  text-transform: lowercase;
+  text-align: center;
+}
